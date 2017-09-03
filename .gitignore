@@ -1,0 +1,4 @@
+# compiled python byte code
+*.pyc
+# generated html pages
+*.html
