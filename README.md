@@ -41,4 +41,4 @@ The following instructions assume you have Python installed. If not, install [Py
 
 ## License
 
-Meh. Do what you will. This project is [Unlicensed](https://choosealicense.com/licenses/unlicense/). 
+Meh. Do what you will. This project is using [The Unlicense License](https://choosealicense.com/licenses/unlicense/). 
