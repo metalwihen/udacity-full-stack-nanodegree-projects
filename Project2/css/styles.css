@@ -1,0 +1,144 @@
+
+/* Nexus 5 Specs */
+@media screen and (max-width: 360px) {
+	body {
+        padding: 2px;
+    }
+
+    .header-icon {
+		display: block;
+	}
+
+	.header-titles {
+		display: block;
+		text-align: left;
+	}	  
+
+	.work-image {
+		width: 360px;
+	}
+}
+
+/* Apple Ipad Specs */
+@media screen and  (min-width:361px) and (max-width: 767px) {
+    body {
+        padding: 4px;
+    }
+	
+	.header-icon {
+		display: inline-block;
+	}
+
+	.header-titles {
+		display: inline-block;
+		text-align: right;
+		float: right;
+	}	  
+
+	.work-image {
+		width: 360px;
+	} 
+}
+
+/* Desktop Specs */
+@media screen and (min-width: 768px) {
+    .header-icon {
+		display: inline-block;
+	}
+
+	.header-titles {
+		display: inline-block;
+		text-align: right;
+		float: right;
+	}	   
+
+	.work-image {
+		width: 360px;
+	} 
+}
+
+/* Large Monitor Desktop Specs  */
+@media screen and (min-width: 960px) {
+	body{
+		width: 960px;
+
+		/* Center the body content in the middle with width of 960px */
+		position: relative;	
+		margin-left: auto; 
+		margin-right: auto;
+	}
+
+	.work-image {
+		width: 280px;
+	} 
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	color: #7d97ad;
+	font-size: 24px;
+	text-transform: capitalize;
+}
+
+hr {
+	background-color: #7d97ad;
+	height: 2px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#name {
+	color: #2d3c49;
+	font-size: 42px;
+	text-transform: uppercase;
+    margin: 0px;
+}
+
+#designation {
+	color: #2d3c49;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+#logo {
+	width: 64px;
+	height: 64px;
+}
+
+.feature-image {
+	width: 100%;	
+}
+
+.work-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: ltr;
+	justify-content: space-around;
+}
+
+.work-item {
+	color: #2d3c49;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.work-title {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	color: #2d3c49;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.work-description {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
