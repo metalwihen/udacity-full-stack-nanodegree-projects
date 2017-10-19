@@ -12,7 +12,7 @@
 	.header-titles {
 		display: block;
 		text-align: left;
-	}	  
+	}
 
 	.work-image {
 		width: 360px;
@@ -24,7 +24,7 @@
     body {
         padding: 4px;
     }
-	
+
 	.header-icon {
 		display: inline-block;
 	}
@@ -33,11 +33,11 @@
 		display: inline-block;
 		text-align: right;
 		float: right;
-	}	  
+	}
 
 	.work-image {
 		width: 360px;
-	} 
+	}
 }
 
 /* Desktop Specs */
@@ -50,11 +50,11 @@
 		display: inline-block;
 		text-align: right;
 		float: right;
-	}	   
+	}
 
 	.work-image {
 		width: 360px;
-	} 
+	}
 }
 
 /* Large Monitor Desktop Specs  */
@@ -63,14 +63,14 @@
 		width: 960px;
 
 		/* Center the body content in the middle with width of 960px */
-		position: relative;	
-		margin-left: auto; 
+		position: relative;
+		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.work-image {
 		width: 280px;
-	} 
+	}
 
 }
 
@@ -95,14 +95,14 @@ hr {
 	color: #2d3c49;
 	font-size: 42px;
 	text-transform: uppercase;
-    margin: 0px;
+    margin: 0;
 }
 
 #designation {
 	color: #2d3c49;
 	font-size: 16px;
 	text-transform: uppercase;
-	margin: 0px;
+	margin: 0;
 }
 
 #logo {
@@ -111,23 +111,19 @@ hr {
 }
 
 .feature-image {
-	width: 100%;	
+	width: 100%;
 }
 
 .work-container {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: ltr;
 	justify-content: space-around;
 }
 
 .work-item {
 	color: #2d3c49;
 	text-align: center;
-	margin-top: 8px;
-	margin-bottom: 8px;
-	margin-left: 4px;
-	margin-right: 4px;
+	margin: 8px 4px 8px 4px;
 }
 
 .work-title {
@@ -139,6 +135,6 @@ hr {
 }
 
 .work-description {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
