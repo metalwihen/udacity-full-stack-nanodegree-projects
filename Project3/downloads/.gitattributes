@@ -1,0 +1,2 @@
+fullstack-nanodegree-vm-master.zip filter=lfs diff=lfs merge=lfs -text
+newsdata.zip filter=lfs diff=lfs merge=lfs -text
