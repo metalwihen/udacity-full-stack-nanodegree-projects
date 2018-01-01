@@ -8,7 +8,7 @@ This repository contains all the projects done as part of the [Full Stack Web De
 1. [Movie Trailer Website](Project1/)
 2. [Build a Portfolio Site](Project2/)
 3. [Logs Analysis](Project3/)
-4. Item Catalog
+4. [Item Catalog](Project4/)
 5. Neighborhood Map
 6. Linux Server Configuration
 
