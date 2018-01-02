@@ -9,8 +9,8 @@ This repository contains all the projects done as part of the [Full Stack Web De
 2. [Build a Portfolio Site](Project2/)
 3. [Logs Analysis](Project3/)
 4. [Item Catalog](Project4/)
-5. Neighborhood Map
-6. Linux Server Configuration
+5. [Neighborhood Map](Project5/)
+6. [Linux Server Configuration](Project6/)
 
 
 ## License
