@@ -13,6 +13,10 @@ This repository contains all the projects done as part of the [Full Stack Web De
 6. [Linux Server Configuration](Project6/)
 
 
+## Certificate
+
+![Certificate](cert.png)
+
 ## License
 
 Meh. Do what you will. These projects are using [The Unlicense License](https://choosealicense.com/licenses/unlicense/). 
