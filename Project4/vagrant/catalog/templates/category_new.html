@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2> New Category </h2>
+<form action="#" method = 'post'>
+	<p>Name:</p>
+		<input type ='text' size='30' name='name'>
+<input type='submit' value='Create'>
+<a href='{{url_for('showCategory')}}'><button> Cancel </button></a>
+</form>
+{% endblock %}

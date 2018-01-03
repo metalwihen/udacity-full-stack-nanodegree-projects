@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1> Edit Item </h1>
+<form action="#" method = 'post'>
+	<p>Name:</p>
+	<input type ='text' size='30' name='name' placeholder = '{{item.name }}'>
+	<p>Description:</p>
+	<input type ='text' size='30' name='description' placeholder = '{{item.description}}'>
+	<br>
+	<br>
+    <input type='submit' value='Edit'>
+	<a href='{{url_for('showItem', category_id=category_id )}}'>
+	    <button>Cancel</button>
+	</a>
+</form>
+{% endblock %}

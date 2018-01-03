@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ category.name }}</h1>
+{% if items !=[] %}
+    <a href="{{url_for('newItem', category_id = category.id )}}">
+        <button>Create New Item</button>
+    </a>
+    {% for i in items %}
+        <h3>{{i.name}}</h3>
+        <p>{{i.description}}</p>
+
+        <a href='{{url_for('editItem', category_id=category.id, item_id=i.id )}}'>
+            <button>Edit</button>
+        </a>
+        <a href='{{url_for('deleteItem', category_id=category.id, item_id=i.id ) }}'>
+            <button>Delete</button>
+        </a>
+        <br>
+        <br>
+    {% endfor %}
+{% else %}
+    <p> There is no item in {{category.name}}... <p>
+    <a href = "{{url_for('newItem', category_id = category.id )}}">
+        <button>Create New Item</button>
+    </a>
+{% endif %}
+<br>
+<br>
+<a href="/category"><button> Cancel </button></a>
+{% endblock %}

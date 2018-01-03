@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- CSS Framework: http://getskeleton.com/ -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/static/normalize.css">
+  <link rel="stylesheet" href="/static/skeleton.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Item Catalog</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+
+
+  <header class="toolbar">
+    <h1><a href="/category">Expense Tracker</a></h1>
+    {% if not session.username %}
+        <h6><a href="/login"> Login </a> </h6>
+    {% else %}
+    <h6><a href="/gdisconnect">Logout</a></h6>
+    {% endif %}
+  </header>
+
+  <main>
+	{% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+      {% for message in messages %}
+          <li> <strong> {{ message }} </strong> </li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+  {% endwith %}
+
+    {% block content %}
+    {% endblock %}
+  </main>
+
+
+  </div></div></div>
+
+</body>
+</html>
