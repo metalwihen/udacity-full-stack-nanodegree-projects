@@ -1,4 +1,4 @@
-# Neighbourhood Map
+# Linux Server Configuration
 
 This is the sixth project of the [Full Stack Web Developer Nanodegree](https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004/?). 
 
