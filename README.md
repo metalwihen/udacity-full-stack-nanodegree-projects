@@ -15,7 +15,7 @@ This repository contains all the projects done as part of the [Full Stack Web De
 
 ## Certificate
 
-[https://confirm.udacity.com/FPNZCKPZ](confirm.udacity.com/FPNZCKPZ)
+[confirm.udacity.com/FPNZCKPZ](https://confirm.udacity.com/FPNZCKPZ)
 
 ![Certificate](cert.png)
 
